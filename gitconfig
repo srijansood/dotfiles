@@ -1,5 +1,7 @@
 [user]
 	name = Srijan Sood
 	email = srijansood@gmail.com
+[core]
+  excludesfile = ~/.gitignore
 [alias]
 	co = checkout
