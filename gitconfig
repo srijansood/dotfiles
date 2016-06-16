@@ -3,5 +3,6 @@
 	email = srijansood@gmail.com
 [core]
   excludesfile = ~/.gitignore
+	editor = vim
 [alias]
 	co = checkout
