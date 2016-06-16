@@ -18,3 +18,5 @@ alias jenkins='ssh -i ~/.ssh/jenkins.pem ubuntu@$1'
 alias api='ssh srijan@srijan-api-0'
 alias predict='ssh srijan@srijan-predict-0'
 alias sv3='ssh srijan@sv3-0101-08'
+
+export EDITOR=vim
