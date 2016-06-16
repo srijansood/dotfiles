@@ -2,6 +2,7 @@
 	name = Srijan Sood
 	email = srijansood@gmail.com
 [core]
-  excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
+	editor = vim
 [alias]
 	co = checkout
