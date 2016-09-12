@@ -1,4 +1,0 @@
-alias c='clear'
-title(){
-   echo -en "\033]0;$1\a"
-}

@@ -1,10 +1,11 @@
 #!/bin/bash
 
 echo "Installing dotfiles..."
-for name in files/; do
+for name in *; do
+    echo $name
     # ensure we don't copy items that aren't .files
     case "$name" in
-        "install.sh"|"README")
+        "install.sh"|"README.md")
             continue;;
     esac
     target="$HOME/.$name"
